@@ -1,6 +1,5 @@
 package org.parmesh.rental.repository;
 
-import org.parmesh.rental.entity.RentalCharge;
 import org.parmesh.rental.entity.Tool;
 
 import java.util.ArrayList;

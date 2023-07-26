@@ -1,8 +1,6 @@
 package org.parmesh.rental.enums;
 
 import lombok.Getter;
-import org.parmesh.rental.exception.CustomExceptions;
-import org.parmesh.rental.model.ToolRentalRequest;
 
 @Getter
 public enum ErrorCode {
@@ -23,9 +21,7 @@ public enum ErrorCode {
         return errorCode;
     }
 
-    public void setErrorCode(String errorCode) {
-        this.errorCode = errorCode;
-    }
+
 
     public String getErrorMessage() {
         return errorMessage;
